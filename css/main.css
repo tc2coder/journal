@@ -95,7 +95,66 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-family: 'Oxygen', sans-serif;
+}
 
+.header {
+
+    color: black;
+    font-weight: 700;
+    /*border-bottom-style: solid black 2px;*/
+    
+    
+}
+
+h1 {
+    float: left;
+    margin-left: 70px;
+    margin-right: 25%;
+
+
+
+}
+
+ul.headerNav {
+    float: left;
+    margin: 38px 0% 0% 0%;
+
+}
+
+ul.headerNav li {
+    display: inline-block;
+    
+
+}
+
+a:link {
+    color: #B20000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #C13333;
+    text-decoration: none;
+    
+}
+
+a:hover {
+    color: #7D0000;
+    text-decoration: none;
+    
+}
+
+a:active {
+    color: #A32900;
+    text-decoration: none;
+}
+
+ul.leftNav {
+
+    
+}
 
 
 
