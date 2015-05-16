@@ -151,9 +151,93 @@ a:active {
     text-decoration: none;
 }
 
-ul.leftNav {
+/* Left Nav Box --------------------------------*/
+
+.box {
+    border: solid 5px gray;
+    padding: 20px
+    margin: 5px;
+    width: 20%
+}
+
+.leftBox {
+    float: left;
+    margin-left: 70px;
+    margin-right: 25%;
+    
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0%;
+    text-align: left;
+    font-size: 90%;
+    padding: 0px;
+   
+  }
+
+
+
+
+/* Articles --------------------------------*/
+
+/* this encloses the journal articles */
+
+.entryArticle {
+
+    float: left;
+    margin: 5px
+    width: 20%;
+    background-color: #b0e0e6
+
 
     
+
+    }
+
+/* header inside each entry.Article */
+
+h2 {
+   /* margin-top: 0px;
+    margin-bottom: 5px;*/
+
+    float: left;
+    margin-bottom: 0px;
+    margin-left: 70px;
+    margin-right: 25%;
+
+
+}
+
+h3 {
+    /*margin-top: 0px;*/
+
+    float: left;
+    margin-top: 0px;
+    margin-left: 70px;
+    margin-right: 25%;
+}
+
+p {
+    /*margin-top: 0px;*/
+
+    float: left;
+    margin-top: 0px;
+    margin-left: 70px;
+    margin-right: 25%;
+}
+
+/* space between journal articles */
+
+.journalArticle {
+    margin-bottom: 20px;
+}
+
+/* footer of each article */
+
+.articleFooter {
+    font-style: italic;
 }
 
 
