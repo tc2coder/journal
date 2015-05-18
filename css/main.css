@@ -104,15 +104,15 @@ body {
 
     color: black;
     font-weight: 700;
-    border-bottom-style: solid black 2px;
-    
+    /*border-bottom-style: solid black 2px;*/
+    font-size: 110%;
     
 }
 
 h1 {
     float: left;
-    margin-left: 70px;
-    margin-right: 25%;
+    margin-left: 60px;
+    margin-right: 18%;
 
 
 
@@ -126,6 +126,7 @@ ul.headerNav {
 
 ul.headerNav li {
     display: inline-block;
+    padding: 5px;
     
 
 }
@@ -155,7 +156,7 @@ a:active {
  /*Left Nav Box --------------------------------
 */
 .box {
-    /*border: solid 1px gray;*/
+    border: solid 1px gray;
     margin: 5px;
     padding: 20px;
     width: 25%;
@@ -165,8 +166,18 @@ a:active {
 
 .leftBox {
     float: left;
-    margin-left: 75px;
-    /*margin-right: 25%;*/
+    margin-left: 60px;
+    display: block;
+    
+}
+
+.leftAbout {
+    float: left;
+    clear: both;
+    margin-left: 60px;
+    padding: 20px;
+    display: block;
+    margin-top: 35px;
     
     
 }
@@ -183,20 +194,23 @@ ul {
 
 /* this encloses the entries*/
 
+
 .entry_1 {
 
     /*float: left;
     margin: 75px;
     width: 20%;*/
 
-    /*border: solid 1px gray;*/
-    float: left;
-    /*margin-bottom: 0px;*/
-    margin-left: 45px;
+    border: solid 1px gray;
+    /*float: left;*/
+    margin-bottom: 0px;
+    margin-left: 50px;
     /*margin-right: 25%;*/
     width: 55%;
     padding-left: 20px;
     background-color: white;
+    display: inline-block;
+
 
 
     }
@@ -233,23 +247,42 @@ p {
     /*width: 150px;*/
 }
 
-.entry_2 {
+.entry_3 {
 
     /*float: left;
     margin: 75px;
     width: 20%;*/
 
-    /*border: solid 1px gray;*/
-    float: left;
-    /*margin-bottom: 0px;*/
-    margin-left: 100px;
+    border: solid 1px gray;
+    /*float: left;*/
+    margin-bottom: 0px;
+    margin-left: 50px;
     /*margin-right: 25%;*/
     width: 55%;
     padding-left: 20px;
     background-color: white;
+    display: inline-block;
 
+    }
 
-}
+.entry_4 {
+
+    /*float: left;
+    margin: 75px;
+    width: 20%;*/
+
+    border: solid 1px gray;
+    /*float: left;*/
+    margin-bottom: 0px;
+    margin-left: 50px;
+    /*margin-right: 25%;*/
+    width: 55%;
+    padding-left: 20px;
+    background-color: white;
+    display: inline-block;
+    margin-top: 35px
+
+    }
 
 
 
